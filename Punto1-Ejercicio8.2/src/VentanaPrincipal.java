@@ -1,5 +1,5 @@
 import javax.swing.*;
 
-public class VentanaPincipal {
+public class VentanaPrincipal {
     private JButton button1;
 }
