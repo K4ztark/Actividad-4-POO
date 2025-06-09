@@ -37,7 +37,6 @@ public class VentanaPrincipal extends JFrame implements ActionListener {
         contenedor.add(botonPiramide);
     }
 
-
     public void actionPerformed(ActionEvent evento) {
         if (evento.getSource() == botonEsfera) {
             VentanaEsfera ventanaEsfera = new VentanaEsfera();

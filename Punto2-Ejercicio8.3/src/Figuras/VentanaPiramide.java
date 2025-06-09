@@ -21,7 +21,6 @@ public class VentanaPiramide extends JFrame implements ActionListener {
         setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
     }
 
-
     private void inicio() {
         contenedor = getContentPane();
         contenedor.setLayout(null);

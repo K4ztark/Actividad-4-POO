@@ -1,5 +1,4 @@
 package Figuras;
-
 public class FiguraGeometrica {
     private double superficie;
     private double volumen;
