@@ -1,8 +1,9 @@
 package Notas;
+
+import javax.swing.*;
 import java.awt.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
-import javax.swing.*;
 
 public class VentanaPrincipal extends JFrame implements ActionListener {
     private Container contenedor;
@@ -14,11 +15,12 @@ public class VentanaPrincipal extends JFrame implements ActionListener {
             campoNota4, campoNota5;
 
     private JButton calcular, limpiar;
+    private JLabel Nota1;
 
-    public VentanaPrincipal(){
+    public VentanaPrincipal() {
         inicio();
         setTitle("Notas");
-        setSize(280,380);
+        setSize(280, 380);
         setLocationRelativeTo(null);
         setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         setResizable(false);

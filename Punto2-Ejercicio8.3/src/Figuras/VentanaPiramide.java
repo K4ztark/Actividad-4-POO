@@ -1,17 +1,12 @@
 package Figuras;
-
 import javax.swing.*;
 import java.awt.*;
 import java.awt.event.*;
-
-
 public class VentanaPiramide extends JFrame implements ActionListener {
     private Container contenedor;
     private JLabel base, altura, apotema, volumen, superficie;
     private JTextField campoBase, campoAltura, campoApotema;
     private JButton calcular;
-
-
     public VentanaPiramide() {
         inicio();
         setTitle("Pirámide");
@@ -20,7 +15,6 @@ public class VentanaPiramide extends JFrame implements ActionListener {
         setResizable(false);
         setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
     }
-
 
     private void inicio() {
         contenedor = getContentPane();
@@ -61,7 +55,6 @@ public class VentanaPiramide extends JFrame implements ActionListener {
         contenedor.add(volumen);
         contenedor.add(superficie);
     }
-
     public void actionPerformed(ActionEvent event) {
         Piramide piramide;
         boolean error = false;
