@@ -1,13 +1,10 @@
 package Notas;
-
 public class Notas {
     double[] listaNotas;
-
     public Notas() {
 
         listaNotas = new double[5];
     }
-
     double calcularPromedio() {
         double suma = 0;
         for (int i = 0; i < listaNotas.length; i++) {
@@ -15,7 +12,6 @@ public class Notas {
         }
         return (suma / listaNotas.length);
     }
-
     double calcularDesviación() {
         double prom = calcularPromedio();
         double suma = 0;
@@ -34,7 +30,6 @@ public class Notas {
         }
         return menor;
     }
-
     double calcularMayor() {
         double mayor = listaNotas[0];
         for (int i = 0; i < listaNotas.length; i++) {
